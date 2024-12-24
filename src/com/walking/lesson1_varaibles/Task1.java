@@ -6,5 +6,13 @@ package com.walking.lesson1_varaibles;
  */
 public class Task1 {
     public static void main(String[] args) {
+        int a = 5;
+        int b = 10;
+        int c = a + b; // 15
+
+        a = c - a; // 10
+        b = c - a; // 5
+
+        System.out.println("Значение a: " + a + "\nЗначение b: " + b);
     }
 }
