@@ -7,5 +7,7 @@ package com.walking.lesson1_varaibles;
  */
 public class Task2ComplicatedWithString {
     public static void main(String[] args) {
+        String myName = "J\na\nc\nk";
+        System.out.println(myName);
     }
 }
